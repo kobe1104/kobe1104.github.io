@@ -138,19 +138,15 @@
 }
 
 .profile-container img {
-  width: 251px;
-  height: 377px;
-}
-
-.profile-container p {
-  padding-left: 20%;
+  width: 40%;
+  height: 40%;
 }
 
 .profile {
   width: 600px;
   height: 300px;
   margin-left: 50px;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 
@@ -159,7 +155,8 @@
   /*padding-right: 30%;*/
   /*padding-top: 5%;*/
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-end;
+  margin-right: 14%;
 }
 
 .links img {
