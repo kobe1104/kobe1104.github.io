@@ -19,29 +19,29 @@
   /*border: 1px solid black;*/
 }
 
-.work {
+.nav-work {
   padding-right: 120px;
   color: black;
 }
 
-.about {
+.nav-about {
   padding-right: 120px;
 }
 
-.top {
+.nav-top {
   /*padding-right: 50px;*/
 }
 
-.work:hover {
-
+.nav-work:hover {
+  cursor: pointer;
 }
 
-.about:hover {
-
+.nav-about:hover {
+  cursor: pointer;
 }
 
-.top:hover {
-
+.nav-top:hover {
+  cursor: pointer;
 }
 
 .greeting-page {
@@ -74,8 +74,16 @@
   width: 300px;
   height: 200px;
   border-radius: 20%;
-  border: 2px solid white;
 }
+
+.work-page img:hover {
+  cursor: pointer;
+}
+
+.death-img {
+  border: 1px solid white;
+}
+
 
 .corgigram {
   padding-left: 10%;
@@ -140,6 +148,7 @@
 .profile-container img {
   width: 493px;
   height: 714px;
+  object-fit: cover;
 }
 
 .profile {
@@ -162,5 +171,9 @@
 .links img {
   height: 80px;
   width: 80px;
-  padding: 20px;
+  margin: 20px;
+}
+
+.links img:hover {
+  cursor: pointer;
 }
