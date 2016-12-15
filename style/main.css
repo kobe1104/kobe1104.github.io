@@ -48,6 +48,7 @@
   width: 100vw;
   height: 100vh;
   background-color: white;
+
 }
 
 .greeting {
@@ -149,13 +150,14 @@
   width: 493px;
   height: 714px;
   object-fit: cover;
+  border-radius: 3px;
 }
 
 .profile {
   width: 600px;
   height: 300px;
   margin-left: 50px;
-  margin-top: 80px;
+  margin-top: 150px;
 }
 
 
