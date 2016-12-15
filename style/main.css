@@ -14,14 +14,14 @@
 }
 
 .nav-bar div {
-  padding-top: 40px;
+  margin-top: 40px;
   font-size: 15px;
   /*border: 1px solid black;*/
+  color: black;
 }
 
 .nav-work {
-  padding-right: 120px;
-  color: black;
+  margin-right: 120px;
 }
 
 .nav-about {
@@ -82,7 +82,7 @@
 }
 
 .death-img {
-  border: 1px solid white;
+  border: 2px solid white;
 }
 
 
