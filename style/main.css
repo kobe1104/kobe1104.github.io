@@ -99,10 +99,11 @@
 }
 
 .corgigram-description {
+  line-height: 1.2;
   width: 400px;
   height: 150px;
   margin-left: 30px;
-  margin-top: 30px;
+  margin-top: 20px;
   font-size: 20px;
 }
 
@@ -114,10 +115,11 @@
 }
 
 .death-description {
+  line-height: 1.2;
   width: 400px;
   height: 150px;
   margin-right: 30px;
-  margin-top: 30px;
+  margin-top: 20px;
   font-size:20px;
 }
 
@@ -128,10 +130,11 @@
 }
 
 .ductionary-description {
+  line-height: 1.2;
   width: 400px;
   height: 150px;
   margin-left: 30px;
-  margin-top: 30px;
+  margin-top: 20px;
   font-size: 20px;
 }
 
@@ -161,6 +164,8 @@
 }
 
 .profile {
+  line-height: 1.5;
+  text-indent: 30px;
   width: 600px;
   height: 300px;
   margin-left: 50px;
