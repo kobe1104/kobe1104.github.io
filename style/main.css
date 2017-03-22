@@ -9,7 +9,7 @@
   position:fixed;
   width: 100vw;
   height: 60px;
-  background-color: black;
+  background-color: rgba(0,0,0,0.8);
   justify-content: center;
   z-index: 2;
 }
@@ -130,6 +130,8 @@
 }
 
 
+/*About Page*/
+
 .about-page {
   width: 100vw;
   height: 100vh;
@@ -163,6 +165,49 @@
   margin-top: 150px;
   font-size: 20px;
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* Contact Page */
+
+.contact-page {
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  position: relative;
+}
+
+.contact-info {
+
+}
+
+.footer {
+  margin-top: 20px;
+  position:absolute;;
+  width: 100vw;
+  height: 100px;
+  background-color: black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  bottom:0;
+}
+
+.inner-footer {
+  display:flex;
+  position: relative;
+  width: 15vw;
+  height:50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inner-footer a {
+  color:white;
+}
+
+.inner-footer a:hover {
+  color: orange;
 }
 
 
@@ -269,35 +314,4 @@
 
 .resume-wrap:hover .resume-text {
   visibility:visible;
-}
-
-
-
-
-.footer {
-  margin-top: 20px;
-  position:relative;
-  width: 100vw;
-  height: 100px;
-  background-color: black;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.inner-footer {
-  display:flex;
-  position: relative;
-  width: 15vw;
-  height:50px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.inner-footer a {
-  color:white;
-}
-
-.inner-footer a:hover {
-  color: orange;
 }
