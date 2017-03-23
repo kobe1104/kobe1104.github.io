@@ -36,19 +36,26 @@
 
 
 .greeting-page {
+  display: flex;
+  position: relative;
   width: 100vw;
   height: 100vh;
   background-color: white;
-
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .greeting {
+  display: flex;
   color:black;
-  position:absolute;
-  top:50%;
-  left:42%;
   font-family: 'Kumar One', cursive;
   font-size: 100px;
+}
+
+.greeting-title {
+  font-size: 60px;
+  padding: 20px 0;
 }
 
 .work-page {
