@@ -175,17 +175,82 @@
   height: 100vh;
   display:flex;
   position: relative;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-info {
+  position: absolute;
+  height:70vh;
+  width: 100%;
+  top: 10%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-info h1{
+  text-align: center;
+  position: relative;
+  border-bottom: 1px solid black;
+  padding: 20px;
+  font-size: 40px;
+}
 
+#contact-desc {
+  padding: 30px 0px;
+  font-size: 20px;
+}
+
+.contact-buttons {
+  position: relative;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+  right: 1%;
+}
+
+.contact-buttons > div > div{
+  display: flex;
+  background-color: black;
+  border-radius: 80px;
+  width: 70px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-buttons > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.contact-buttons p{
+  color:grey;
+  padding: 10px 0;
+}
+
+.contact-buttons p:hover {
+  cursor: default;
+}
+
+.contact-buttons i{
+  color: white;
+}
+
+.contact-buttons i:hover{
+  color: orange;
 }
 
 .footer {
   margin-top: 20px;
-  position:absolute;;
+  position:absolute;
   width: 100vw;
-  height: 100px;
+  height: 15vh;
   background-color: black;
   display:flex;
   justify-content: center;
