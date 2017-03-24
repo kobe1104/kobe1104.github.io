@@ -1,6 +1,10 @@
-.body {
+body {
   display: flex;
   flex-direction: column;
+  background-image: url('https://res.cloudinary.com/corgi1989/image/upload/o_41/v1490395323/tech-wallpaper_hcwkip.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .nav-bar {
@@ -27,6 +31,7 @@
   font-size: 15px;
   /*border: 1px solid white;*/
   color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .inner-nav-bar div:hover {
@@ -40,7 +45,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-color: white;
+  /*background: rgba(255,255,255,0.5);*/
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -56,6 +61,7 @@
 .greeting-title {
   font-size: 60px;
   padding: 20px 0;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .work-page {
@@ -65,7 +71,8 @@
   flex-direction: column;
   justify-content: space-around;
   /*background-color: black;*/
-  background-color: #282a2d;
+  /*background-color: #282a2d;*/
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   /*background-image: url("http://res.cloudinary.com/corgi1989/image/upload/v1480810331/bgi-2_dc8gck.jpg");*/
 }
@@ -145,8 +152,8 @@
   color: black;
   display: flex;
   flex-direction: column;
-  background-color: white;
-  /*background-image: url("http://res.cloudinary.com/corgi1989/image/upload/v1480812124/bgi-3_fzn54y.jpg");*/
+  /*background-color: rgba(200, 200, 200, 0.5);*/
+
 }
 
 .profile-container {
@@ -154,24 +161,31 @@
   padding: 100px;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
 .profile-container img {
-  width: 493px;
-  height: 714px;
+  width: 30%;
+  height: 45%;
   object-fit: cover;
-  border-radius: 3px;
+  border-radius: 20px;
+
 }
 
 .profile {
+  display: flex;
   line-height: 1.5;
   text-indent: 30px;
-  width: 600px;
-  height: 300px;
+  width: 50%;
+  height: 50%;
   margin-left: 50px;
   margin-top: 150px;
   font-size: 20px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items:center;
 }
 
 
@@ -184,6 +198,7 @@
   position: relative;
   align-items: center;
   justify-content: center;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .contact-info {
@@ -202,11 +217,13 @@
   border-bottom: 1px solid black;
   padding: 20px;
   font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 #contact-desc {
   padding: 30px 0px;
   font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .contact-buttons {
@@ -239,6 +256,7 @@
 .contact-buttons p{
   color:grey;
   padding: 10px 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .contact-buttons p:hover {
