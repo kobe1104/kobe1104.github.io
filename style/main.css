@@ -66,36 +66,114 @@ body {
 
 .work-page {
   width: 100vw;
-  height: 400vh;
+  height: 320vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  background-color: rgba(0, 0, 0, 0.5);
+  /*justify-content: space-around;*/
+  background-color: rgba(0, 0, 0, 0.8);
 }
+
+.work-title {
+  display: flex;
+  font-size: 40px;
+  color:white;
+  position:relative;
+  top:100px;
+  align-items: center;
+  justify-content: center;
+  /*text-decoration: underline;*/
+}
+
 
 .work-projects {
   display: flex;
-  justify-content: center;
+  justify-content:center;
+  align-items: center;
   flex-direction: column;
+  height: inherit;
+  position: relative;
 }
 
-.work-projects div {
-  
-  border: 1px solid black;
+/*Each project*/
+.work-projects > div {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  /*justify-content: space-around;*/
+  justify-content: center;
   align-items: center;
+  border: 1px solid white;
+  position: relative;
+  width: 80%;
+}
+
+/*project description*/
+.work-projects > div > div {
+  height: 45vh;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .work-page p {
   font-family: 'Open Sans', sans-serif;
-  width: 40%;
+  width: 500px;
+  color: white;
+  font-size: 26px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 130%;
 }
+
+.work-buttons {
+  display: flex;
+  padding: 0 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-buttons h2 {
+  font-size: 30px;
+  color:white;
+  padding: 0 10px;
+}
+
+.work-buttons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  border: 1px solid white;
+  text-decoration: none;
+}
+
+.work-buttons i {
+  color: white;
+}
+
+.work-projects ul {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.work-projects li {
+  padding: 0 10px;
+  display: inline-block;
+  /*display: table*/
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+}
+
 
 .work-page img {
   width: 40%;
   height: 40%;
+  border: 1px solid white;
 }
 
 .work-page img:hover {
