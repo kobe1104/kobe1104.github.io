@@ -66,7 +66,7 @@ body {
 
 .work-page {
   width: 100vw;
-  height: 320vh;
+  height: 270vh;
   display: flex;
   flex-direction: column;
   /*justify-content: space-around;*/
@@ -97,18 +97,16 @@ body {
 /*Each project*/
 .work-projects > div {
   display: flex;
-  /*justify-content: space-around;*/
   justify-content: center;
   align-items: center;
-  border: 1px solid white;
   position: relative;
   width: 80%;
+  border-bottom: 1px solid white;
 }
 
 /*project description*/
 .work-projects > div > div {
   height: 45vh;
-  border: 2px solid black;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -119,7 +117,6 @@ body {
   width: 500px;
   color: white;
   font-size: 26px;
-  border: 1px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -144,7 +141,6 @@ body {
   justify-content: center;
   align-items: center;
   padding: 0 10px;
-  border: 1px solid white;
   text-decoration: none;
 }
 
@@ -157,7 +153,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
 }
 
 .work-projects li {
@@ -173,7 +168,6 @@ body {
 .work-page img {
   width: 40%;
   height: 40%;
-  border: 1px solid white;
 }
 
 .work-page img:hover {
