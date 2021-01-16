@@ -1,25 +1,25 @@
 body {
   display: flex;
   flex-direction: column;
-  background-image: url('https://res.cloudinary.com/corgi1989/image/upload/o_41/v1490395323/tech-wallpaper_hcwkip.jpg');
+  background-image: url("https://res.cloudinary.com/corgi1989/image/upload/o_41/v1490395323/tech-wallpaper_hcwkip.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .nav-bar {
-  top:0;
+  top: 0;
   display: flex;
-  position:fixed;
+  position: fixed;
   width: 100vw;
   height: 60px;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   justify-content: center;
   z-index: 2;
 }
 
 .inner-nav-bar {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   width: 50vw;
   position: relative;
@@ -31,7 +31,7 @@ body {
   font-size: 15px;
   /*border: 1px solid white;*/
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .inner-nav-bar div:hover {
@@ -39,13 +39,12 @@ body {
   color: orange;
 }
 
-
 .greeting-page {
   display: flex;
   position: relative;
   width: 100vw;
   height: 100vh;
-  background: rgba(255,255,255,0.4);
+  background: rgba(255, 255, 255, 0.4);
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -53,15 +52,15 @@ body {
 
 .greeting {
   display: flex;
-  color:black;
-  font-family: 'Kumar One', cursive;
+  color: black;
+  font-family: "Kumar One", cursive;
   font-size: 100px;
 }
 
 .greeting-title {
   font-size: 60px;
   padding: 20px 0;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .work-page {
@@ -76,18 +75,17 @@ body {
 .work-title {
   display: flex;
   font-size: 40px;
-  color:white;
-  position:relative;
-  top:100px;
+  color: white;
+  position: relative;
+  top: 100px;
   align-items: center;
   justify-content: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-
 
 .work-projects {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   height: inherit;
@@ -113,7 +111,7 @@ body {
 }
 
 .work-page p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   width: 500px;
   color: white;
   font-size: 20px;
@@ -123,7 +121,7 @@ body {
   line-height: 130%;
 }
 
-.work-page p:hover{
+.work-page p:hover {
   cursor: default;
 }
 
@@ -136,12 +134,12 @@ body {
 
 .work-buttons h2 {
   font-size: 30px;
-  color:white;
+  color: white;
   padding: 0 10px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 .work-buttons h2:hover {
-  cursor:default;
+  cursor: default;
 }
 
 .work-buttons a {
@@ -172,26 +170,21 @@ body {
 .work-projects li {
   padding: 0 10px;
   display: inline-block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   border: 2px solid white;
   border-radius: 5px;
   color: white;
   margin: 0 3px;
 }
 
-
 .work-page img {
-  height: 40%;
-  width: 40%
+  /* height: 40%; */
+  width: 40%;
 }
 
 .work-page img:hover {
   cursor: pointer;
 }
-
-
-
-
 
 /*About Page*/
 
@@ -202,7 +195,6 @@ body {
   display: flex;
   flex-direction: column;
   /*background-color: rgba(200, 200, 200, 0.5);*/
-
 }
 
 .profile-container {
@@ -215,10 +207,9 @@ body {
 
 .profile-container img {
   width: 30%;
-  height: 45%;
+  /* height: 45%; */
   object-fit: cover;
   border-radius: 20px;
-
 }
 
 .profile {
@@ -230,20 +221,19 @@ body {
   margin-left: 50px;
   margin-top: 150px;
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
 }
-
 
 /* Contact Page */
 
 .contact-page {
   width: 100vw;
   height: 100vh;
-  display:flex;
+  display: flex;
   position: relative;
   align-items: center;
   justify-content: center;
@@ -252,39 +242,39 @@ body {
 
 .contact-info {
   position: absolute;
-  height:70vh;
+  height: 70vh;
   width: 100%;
   top: 10%;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.contact-info h1{
+.contact-info h1 {
   text-align: center;
   position: relative;
   border-bottom: 1px solid black;
   padding: 20px;
   font-size: 40px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 #contact-desc {
   padding: 30px 0px;
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .contact-buttons {
   position: relative;
-  display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 45%;
   right: 1%;
 }
 
-.contact-buttons > div > div{
+.contact-buttons > div > div {
   display: flex;
   background-color: black;
   border-radius: 80px;
@@ -294,61 +284,59 @@ body {
   align-items: center;
 }
 
-.contact-buttons > div{
+.contact-buttons > div {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
 
-.contact-buttons p{
-  color:grey;
+.contact-buttons p {
+  color: grey;
   padding: 10px 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .contact-buttons p:hover {
   cursor: default;
 }
 
-.contact-buttons i{
+.contact-buttons i {
   color: white;
 }
 
-.contact-buttons i:hover{
+.contact-buttons i:hover {
   color: orange;
 }
 
 .footer {
   margin-top: 20px;
-  position:absolute;
+  position: absolute;
   width: 100vw;
   height: 15vh;
   background-color: black;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  bottom:0;
+  bottom: 0;
 }
 
 .inner-footer {
-  display:flex;
+  display: flex;
   position: relative;
   width: 15vw;
-  height:50px;
+  height: 50px;
   justify-content: space-between;
   align-items: center;
 }
 
 .inner-footer a {
-  color:white;
+  color: white;
 }
 
 .inner-footer a:hover {
   color: orange;
 }
-
 
 .email-wrap {
   position: relative;
@@ -356,26 +344,25 @@ body {
 }
 
 .email-wrap .email-text {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
 
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    bottom: 110%;
-    left: 50%;
-    margin-left: -60px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 110%;
+  left: 50%;
+  margin-left: -60px;
 }
 
 .email-wrap:hover .email-text {
-  visibility:visible;
+  visibility: visible;
 }
-
 
 .github-wrap {
   position: relative;
@@ -383,24 +370,24 @@ body {
 }
 
 .github-wrap .github-text {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
 
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    bottom: 110%;
-    left: 50%;
-    margin-left: -60px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 110%;
+  left: 50%;
+  margin-left: -60px;
 }
 
 .github-wrap:hover .github-text {
-  visibility:visible;
+  visibility: visible;
 }
 
 .linkedin-wrap {
@@ -409,24 +396,24 @@ body {
 }
 
 .linkedin-wrap .linkedin-text {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
 
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    bottom: 110%;
-    left: 50%;
-    margin-left: -60px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 110%;
+  left: 50%;
+  margin-left: -60px;
 }
 
 .linkedin-wrap:hover .linkedin-text {
-  visibility:visible;
+  visibility: visible;
 }
 
 .resume-wrap {
@@ -435,22 +422,22 @@ body {
 }
 
 .resume-wrap .resume-text {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
 
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    bottom: 110%;
-    left: 50%;
-    margin-left: -60px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 110%;
+  left: 50%;
+  margin-left: -60px;
 }
 
 .resume-wrap:hover .resume-text {
-  visibility:visible;
+  visibility: visible;
 }
